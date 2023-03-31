@@ -1,3 +1,16 @@
 spring:
   application:
     name: "takehome"
+
+
+logging:
+  level:
+    ROOT: WARN
+
+
+application:
+  graphQlServerUrl: https://countries.trevorblades.com/
+  authenticatedRps: 20
+  unauthenticatedRps: 5
+
+
